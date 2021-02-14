@@ -1,32 +1,36 @@
-body{
+body {
   overflow: hidden;
   margin: 0;
 }
-.parent{
-  position: fixed;
+
+.parent {
+  position: absolute;
   top: 50%;
   left: 0;
   width: 100%;
 }
-h1{
+
+h1 {
   text-align: center;
-  transform:translateY(-50%);
+  transform: translateY(-50%);
   font-family: 'Love Ya Like A Sister', cursive;
   font-size: 40px;
   color: #c70012;
-  padding: 0 20px;
+  padding: 0 40px;
 }
-p{
+
+p {
   margin-top: 100px;
   text-align: center;
-  transform:translateY(-50%);
+  transform: translateY(-50%);
   font-family: 'Love Ya Like A Sister', cursive;
   font-size: 40px;
-  color: #c70012;
+  color: #000000;
   padding: 0 20px;
 }
-@media (min-width:1200px){
-  h1{
+
+@media (min-width:1200px) {
+  h1 {
     font-size: 60px;
   }
 }
